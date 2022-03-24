@@ -1,0 +1,4 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@lxterminal -e /home/pi/GPIO_read.sh > /home/pi/log_test.txt 2>&1

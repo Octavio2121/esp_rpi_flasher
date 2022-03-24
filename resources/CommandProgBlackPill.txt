@@ -1,0 +1,1 @@
+sudo st-flash write firmwareBP.bin 0x08000000

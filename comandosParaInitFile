@@ -1,0 +1,15 @@
+"Comando para copiar la carpeta code"
+
+sudo cp -r /home/pi/Desktop/esp_rpi_flasher/code /boot
+
+"Para cambiar a la carpeta resources"
+
+cd resources/
+
+"Para copiar el archivo serial-rules"
+
+sudo cp serial-ports.rules /etc/udev/rules.d
+
+"reload rules"
+
+sudo udevadm control --reload-rules

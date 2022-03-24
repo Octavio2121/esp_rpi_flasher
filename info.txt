@@ -1,0 +1,6 @@
+user: pi
+password: pi
+
+
+Service of systemd is testSandsara.service //not used
+sudo nano /lib/systemd/system/testSandsara.service
